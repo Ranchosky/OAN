@@ -9,11 +9,10 @@ and ours on DOTA-v1.0 test set.
 
 
 
-# Less is More: Efficient Object Detection in Large Aerial Images
+# Fewer is More: Efficient Object Detection in Large Aerial Images
 
 ## Introduction
-This work presents an Objectness Activation Network (OAN) for judging whether each patch exists objects or not. OAN is a light-weight fully
-convolutional network that guides detectors where to focus. OAN assists the detectors to focus on less patches but achieve more efficient inference and more accurate results. On extremely large Gaofen-2 images (29200×27620 pixels), our OAN improves the detection speed by 70.5%.
+This work presents an Objectness Activation Network (OAN) to help detectors focus on fewer patches but achieve more efficient inference and more accurate results, enabling a simple and effective solution to object detection in large images. On extremely large Gaofen-2 images (29200×27620 pixels), our OAN improves the detection speed by 70.5%.
 
 ## Acknowledgement
 Our OAN is implemented based on the [MMdetection](https://github.com/open-mmlab/mmdetection)

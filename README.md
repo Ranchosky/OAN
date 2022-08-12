@@ -83,7 +83,7 @@ The expriments are conducted on four datasets (DOTA1.0, DOTA1.5, DOTA2.0, extrem
 
 Here we show an example of large aerial images.
 
-![demo image](demo/large_image.jpg)
+![demo image](demo/large_image_example.jpg)
 
 ### Splitting images (for DOTA)
 The DOTA images are too big to train. We need to split the image before training.

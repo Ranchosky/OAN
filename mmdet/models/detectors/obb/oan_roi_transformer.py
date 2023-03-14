@@ -7,6 +7,7 @@ class oan_RoITransformer(oan_OBBTwoStageDetector):
 
     def __init__(self,
                  backbone,
+                 oan=None,    
                  neck=None,
                  rpn_head=None,
                  roi_head=None,
@@ -15,6 +16,7 @@ class oan_RoITransformer(oan_OBBTwoStageDetector):
                  pretrained=None):
         super(oan_RoITransformer, self).__init__(
             backbone=backbone,
+            oan=oan,
             neck=neck,
             rpn_head=rpn_head,
             roi_head=roi_head,

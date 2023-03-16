@@ -1,5 +1,5 @@
 # OAN
-This is the official implement of [OAN](configs/obb/oan).
+This is the official implement of [OAN](configs/oan).
 
 Here we show the inference speed comparison between existing methods
 and ours on DOTA-v1.0 test set.

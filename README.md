@@ -163,6 +163,8 @@ python tools/train.py configs/oan/faster_rcnn_orpn_r50_fpn_1x_dota10_ss_oan.py -
 This project is released under the [Apache 2.0 license](LICENSE).
 
 ## Citation
+
+```shell
 @article{
   title = "Fewer is More: Efficient Object Detection in Large Aerial Images",
   author = "Xie Xingxing, Cheng Gong, Li Qingyang, Miao Shicheng, Li Ke, Han Junwei",
@@ -170,3 +172,4 @@ This project is released under the [Apache 2.0 license](LICENSE).
   year = "2023",
   doi = "https://doi.org/10.1007/s11432-022-3718-5"
 }
+```

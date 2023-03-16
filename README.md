@@ -9,7 +9,7 @@ and ours on DOTA-v1.0 test set.
 
 
 
-# [Fewer is More: Efficient Object Detection in Large Aerial Images] (https://arxiv.org/abs/2212.13136)
+# [Fewer is More: Efficient Object Detection in Large Aerial Images](https://arxiv.org/abs/2212.13136)
 
 ## Introduction
 Current mainstream object detection methods for large aerial images usually divide large images into patches and then exhaustivity detect the objects of interest on all patches, no matter whether there exist objects or not. This paradigm, although effective, is inefficient because the detectors have to go through all patches, severely hindering the inference speed. This paper presents an Objectness Activation Network (OAN) to help detectors focus on fewer patches but achieve more efficient inference and more accurate results, enabling a simple and effective solution to object detection in large images. In brief, OAN is a light fully-convolutional network for judging whether each patch contains objects or not, which can be easily integrated into many object detectors and jointly trained with them end-to-end. We extensively evaluate our OAN with five advanced detectors. Using OAN, all five detectors acquire more than 30.0% speed-up on three large-scale aerial image datasets, meanwhile with consistent accuracy improvements. On extremely large Gaofen-2 images (29200×27620 pixels), our OAN improves the detection speed by 70.5%. Moreover, we extend our OAN to driving-scene object detection and 4K video object detection, boosting the detection speed by 112.1% and 75.0%, respectively, without sacrificing the accuracy.

@@ -115,7 +115,7 @@ Only need to add save_dir path in `configs/_base_/datasets/dota_*.py` to train a
 ## Inference
 
 |model|ss|oan|BaiDu disk|Google Drive|
-|:-------:|--|--|--|--|
+|:-------:|:--:|:--:|:--:|:--:|
 |faster rcnn oan|√|√|[key:fc4n](https://pan.baidu.com/s/1pEIfJo1DdKLQzCQEH6v1qQ?pwd=fc4n)|[model](https://drive.google.com/file/d/1Yl29PZ8yBCib1aLQiBAb6NYTyqRzrzY0/view?usp=share_link)|
 |retinanet oan|√|√|[key:uq8b](https://pan.baidu.com/s/1GB9ztvoMgGe404wX-Mr4Kw?pwd=uq8b)|[model](https://drive.google.com/file/d/1Ltb_fyCycgncBhuVcAOsUjd0mlDgvcgZ/view?usp=sharing)|
 |roi trans oan|√|√|[key:jyww](https://pan.baidu.com/s/1D2J26xssLAYD6xwUd_XlSg?pwd=jyww)|[model](https://drive.google.com/file/d/1YSy15XmEO1KM6N9h7eKoYOZ1av5G3Vo0/view?usp=share_link)|

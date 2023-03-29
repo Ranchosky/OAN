@@ -114,6 +114,7 @@ Only need to add save_dir path in `configs/_base_/datasets/dota_*.py` to train a
 
 ## Inference
 
+You can choose model in the model zoo.
 |model|ss|oan|BaiDu disk|Google Drive|
 |:-------:|:--:|:--:|:--:|:--:|
 |faster rcnn oan|√|√|[key:fc4n](https://pan.baidu.com/s/1pEIfJo1DdKLQzCQEH6v1qQ?pwd=fc4n)|[model](https://drive.google.com/file/d/1Yl29PZ8yBCib1aLQiBAb6NYTyqRzrzY0/view?usp=share_link)|

@@ -114,7 +114,7 @@ Only need to add save_dir path in `configs/_base_/datasets/dota_*.py` to train a
 
 ## Inference
 
-You can choose model in the model zoo.
+
 **start inference**
 ```shell
 # inference on a single image
@@ -129,6 +129,9 @@ python demo/huge_image_demo.py ${IMAGE_FILE} ${CONFIG_FILE} ${CHECKPOINT_FILE} $
 # OUT_FILE: The output path, and result will be save to {OUT_FILE/result.png}
 # SPLIT_CONFIG: The split method config, choose from {OAN/BboxToolkit/tools/split_config/}
 ```
+
+You can choose model in the model zoo.
+
 |model|oan|dataset|ss|BaiDu disk|Google Drive|
 |:-------:|:--:|:----:|:--:|:--:|:--:|
 |faster rcnn oan|√|dota-v1.0|√|[key:fc4n](https://pan.baidu.com/s/1pEIfJo1DdKLQzCQEH6v1qQ?pwd=fc4n)|[model](https://drive.google.com/file/d/1Yl29PZ8yBCib1aLQiBAb6NYTyqRzrzY0/view?usp=share_link)|

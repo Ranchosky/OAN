@@ -115,13 +115,27 @@ Only need to add save_dir path in `configs/_base_/datasets/dota_*.py` to train a
 ## Inference
 
 You can choose model in the model zoo.
-|model|ss|oan|BaiDu disk|Google Drive|
-|:-------:|:--:|:--:|:--:|:--:|
-|faster rcnn oan|√|√|[key:fc4n](https://pan.baidu.com/s/1pEIfJo1DdKLQzCQEH6v1qQ?pwd=fc4n)|[model](https://drive.google.com/file/d/1Yl29PZ8yBCib1aLQiBAb6NYTyqRzrzY0/view?usp=share_link)|
-|retinanet oan|√|√|[key:uq8b](https://pan.baidu.com/s/1GB9ztvoMgGe404wX-Mr4Kw?pwd=uq8b)|[model](https://drive.google.com/file/d/1Ltb_fyCycgncBhuVcAOsUjd0mlDgvcgZ/view?usp=sharing)|
-|roi trans oan|√|√|[key:jyww](https://pan.baidu.com/s/1D2J26xssLAYD6xwUd_XlSg?pwd=jyww)|[model](https://drive.google.com/file/d/1YSy15XmEO1KM6N9h7eKoYOZ1av5G3Vo0/view?usp=share_link)|
-|oriented rcnn r50 oan|√|√|[key:bpyb](https://pan.baidu.com/s/1_EfOUw0rmJvEePQia1nCcw?pwd=bpyb)|[model](https://drive.google.com/file/d/1WSjEhHezWy83AAiVgQeMItc6UrMBk3ps/view?usp=share_link)|
-|oriented rcnn x50 oan|√|√|[key:umtg](https://pan.baidu.com/s/15W4oeKLJy5aLUnK2Sajn8A?pwd=umtg)|[model](https://drive.google.com/file/d/1ad_ZiYCufP7hbkAnntr99UUkm9dVWVGR/view?usp=share_link)|
+**start inference**
+```shell
+# inference on a single image
+python demo/image_demo.py ${IMAGE_FILE} ${CONFIG_FILE} ${CHECKPOINT_FILE} ${OUT_FILE} [optional arguments]
+
+# inference on a huge image
+python demo/huge_image_demo.py ${IMAGE_FILE} ${CONFIG_FILE} ${CHECKPOINT_FILE} ${SPLIT_CONFIG} ${OUT_FILE} [optional arguments]
+
+# IMAGE_FILE: The image file that needs to be inferred.
+# CONFIG_FILE: The config file of model, choose from {OAN/config/oan}
+# CHECKPOINT_FILE: The related checkpoint file of model, choose forom model zoo
+# OUT_FILE: The output path, and result will be save to {OUT_FILE/result.png}
+# SPLIT_CONFIG: The split method config, choose from {OAN/BboxToolkit/tools/split_config/}
+```
+|model|oan|dataset|ss|BaiDu disk|Google Drive|
+|:-------:|:--:|:----:|:--:|:--:|:--:|
+|faster rcnn oan|√|dota-v1.0|√|[key:fc4n](https://pan.baidu.com/s/1pEIfJo1DdKLQzCQEH6v1qQ?pwd=fc4n)|[model](https://drive.google.com/file/d/1Yl29PZ8yBCib1aLQiBAb6NYTyqRzrzY0/view?usp=share_link)|
+|retinanet oan|√|dota-v1.0|√|[key:uq8b](https://pan.baidu.com/s/1GB9ztvoMgGe404wX-Mr4Kw?pwd=uq8b)|[model](https://drive.google.com/file/d/1Ltb_fyCycgncBhuVcAOsUjd0mlDgvcgZ/view?usp=sharing)|
+|roi trans oan|√|dota-v1.0|√|[key:jyww](https://pan.baidu.com/s/1D2J26xssLAYD6xwUd_XlSg?pwd=jyww)|[model](https://drive.google.com/file/d/1YSy15XmEO1KM6N9h7eKoYOZ1av5G3Vo0/view?usp=share_link)|
+|oriented rcnn r50 oan|√|dota-v1.0|√|[key:bpyb](https://pan.baidu.com/s/1_EfOUw0rmJvEePQia1nCcw?pwd=bpyb)|[model](https://drive.google.com/file/d/1WSjEhHezWy83AAiVgQeMItc6UrMBk3ps/view?usp=share_link)|
+|oriented rcnn x50 oan|√|dota-v1.0|√|[key:umtg](https://pan.baidu.com/s/15W4oeKLJy5aLUnK2Sajn8A?pwd=umtg)|[model](https://drive.google.com/file/d/1ad_ZiYCufP7hbkAnntr99UUkm9dVWVGR/view?usp=share_link)|
 
 ## Testing
 

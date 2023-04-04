@@ -115,7 +115,7 @@ Only need to add save_dir path in `configs/_base_/datasets/dota_*.py` to train a
 ## Inference
 
 
-**start inference**
+**Start inference**
 ```shell
 # inference on a single image
 python demo/image_demo.py ${IMAGE_FILE} ${CONFIG_FILE} ${CHECKPOINT_FILE} ${OUT_FILE} [optional arguments]

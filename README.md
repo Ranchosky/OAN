@@ -126,8 +126,8 @@ python demo/huge_image_demo.py ${IMAGE_FILE} ${CONFIG_FILE} ${CHECKPOINT_FILE} $
 # IMAGE_FILE: The image file that needs to be inferred.
 # CONFIG_FILE: The config file of model, choose from {OAN/config/oan}
 # CHECKPOINT_FILE: The related checkpoint file of model, choose forom model zoo
-# OUT_FILE: The output path, and result will be save to {OUT_FILE/result.png}
 # SPLIT_CONFIG: The split method config, choose from {OAN/BboxToolkit/tools/split_config/}
+# OUT_FILE: The output file, and result will be save to {OUT_FILE/result.png}
 ```
 
 You can choose model in the model zoo.

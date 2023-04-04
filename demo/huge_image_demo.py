@@ -11,16 +11,16 @@ def main():
     parser.add_argument('checkpoint', help='Checkpoint file')
     parser.add_argument(
         'split', help='split configs in BboxToolkit/tools/split_configs')
+    parser.add_argument('output', default='output.png', \
+        help='output file of inference')
     parser.add_argument(
         '--device', default='cuda:0', help='Device used for inference')
     parser.add_argument(
         '--score-thr', type=float, default=0.3, help='bbox score threshold')
-    parser.add_argument('--output', default='output', \
-        help='output file of inference')
     args = parser.parse_args()
 
     # output file
-    out_file = args.output + '\\result.png'
+    out_file = args.output
     # build the model from a config file and a checkpoint file
     model = init_detector(args.config, args.checkpoint, device=args.device)
     # test a single image

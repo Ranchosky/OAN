@@ -130,7 +130,7 @@ python demo/huge_image_demo.py ${IMAGE_FILE} ${CONFIG_FILE} ${CHECKPOINT_FILE} $
 # OUT_FILE: The output file, and result will be save to {OUT_FILE/result.png}
 ```
 
-You can choose model in the model zoo.
+You can select model in the model zoo.
 
 |model|oan|dataset|ss|BaiDu disk|Google Drive|
 |:-------:|:--:|:----:|:--:|:--:|:--:|

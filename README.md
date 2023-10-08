@@ -193,11 +193,11 @@ This project is released under the [Apache 2.0 license](LICENSE).
 ## Citation
 
 ```shell
-@article{
-  title = "Fewer is More: Efficient Object Detection in Large Aerial Images",
-  author = "Xie Xingxing, Cheng Gong, Li Qingyang, Miao Shicheng, Li Ke, Han Junwei",
-  journal = "SCIENCE CHINA Information Sciences",
-  year = "2023",
-  doi = "https://doi.org/10.1007/s11432-022-3718-5"
+@article{oan,
+    title = {Fewer is More: Efficient Object Detection in Large Aerial Images},
+    author = {Xie, Xingxing and Cheng, Gong and Li, Qingyang and Miao, Shicheng and Li, Ke and Han, Junwei},
+    journal = {SCIENCE CHINA Information Sciences},
+    year = {2023}，
+    doi={10.1007/s11432-022-3718-5}
 }
 ```

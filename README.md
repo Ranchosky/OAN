@@ -197,7 +197,10 @@ This project is released under the [Apache 2.0 license](LICENSE).
     title = {Fewer is More: Efficient Object Detection in Large Aerial Images},
     author = {Xie, Xingxing and Cheng, Gong and Li, Qingyang and Miao, Shicheng and Li, Ke and Han, Junwei},
     journal = {SCIENCE CHINA Information Sciences},
-    year = {2023},
+    year = {2024},
+    volume={67},
+    number={1},
+    pages={112106},
     doi={10.1007/s11432-022-3718-5}
 }
 ```
